@@ -3,6 +3,12 @@ from mini_bank.src.models.Cliente import Cliente
 from mini_bank.src.models.Conta import Conta
 from mini_bank.src.models.Saque import Saque
 from mini_bank.src.models.Deposito import Deposito
+from mini_bank.src.models.ContaCorrente import ContaCorrente
+from mini_bank.src.models.Historico import Historico
+from mini_bank.src.models.Transacao import Transacao
+from mini_bank.src.models.PessoaFisica import PessoaFisica
+
+
 
 # Criação de cliente e conta (exemplo simples)
 cliente = Cliente("Rua Exemplo, 123")
