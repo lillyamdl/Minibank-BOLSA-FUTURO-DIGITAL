@@ -9,3 +9,4 @@ class Cliente:
 
     def adicionar_conta(self, conta):
         self.contas.append(conta)
+
